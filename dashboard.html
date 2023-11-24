@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!--Inter font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation">
+        <h1>Formify</h1>
+        <h1>Login</h1>
+    </div>
+
+    <div class="flex">
+        <table>
+
+            <!--Form details-->
+            <tr>
+                <td><h1>Form details</h1></td>
+            </tr>
+            
+            <tr>
+                <td><h2>Form properties</h2></td>
+            </tr>
+            <tr>
+                <td><Label>Form action</Label></td>
+                <td><input type="text" class="action"></td>
+            </tr>
+            <tr>
+                <td><Label>Form target</Label></td>
+                <td><input type="text" class="action"></td>
+            </tr>
+            <tr>
+                <td><Label>Form method</Label></td>
+                <td><input type="text" class="action"></td>
+            </tr>
+
+            <!--Form label names-->
+            <tr>
+                <td><h2>Form labels</h2></td>
+            </tr>
+            <tr>
+                <td><Label>Field 1</Label></td>
+                <td><input type="text" class="labelinput"></td>
+            </tr>
+            <tr>
+                <td><Label>Field 2</Label></td>
+                <td><input type="text" class="labelinput"></td>
+            </tr>
+            <tr>
+                <td><Label>Field 3</Label></td>
+                <td><input type="text" class="labelinput"></td>
+            </tr>
+            <tr>
+                <td><Label>Field 4</Label></td>
+                <td><input type="text" class="labelinput"></td>
+            </tr>
+
+
+            <!--Form label user input-->            
+            <tr>
+                <td><h2>Form input type</h2></td>
+            </tr>
+            <tr>
+                <td><Label>Field 1</Label></td>
+                <td><input type="text" placeholder="text" class="fieldinput"></td>
+            </tr>
+            <tr>
+                <td><Label>Field 2</Label></td>
+                <td><input type="text" placeholder="date" class="fieldinput"></td>
+            </tr>
+            <tr>
+                <td><Label>Field 3</Label></td>
+                <td><input type="text" placeholder="email" class="fieldinput"></td>
+            </tr>
+            <tr>
+                <td><Label>Field 4</Label></td>
+                <td><input type="text" placeholder="password" class="fieldinput"></td>
+            </tr>
+            <tr>
+                <td><div id="createbtn">Create form</div></td>
+                <td><div id="reset">Reset</div></td>
+            </tr>
+        </table>
+
+        <div class="generatedcode">
+            <h1>Your code will be generated here </h1>
+            <p>&lt;form action="<span class="actionoutput"></span>" target="<span class="actionoutput"></span>" method="<span class="actionoutput"></span>" &gt;</p>
+            <p>&lt;table&gt;</p>
+
+            <p>&lt;tr&gt;</p>
+            <p>&lt;td&gt;<span class="labeloutput"></span>&lt;/td&gt;</p>
+            <p>&lt;td&gt;&lt;input type="<span class="fieldoutput"></span>"&gt;</span>&lt;/td&gt;</p>
+            <p>&lt;/tr&gt;</p>
+
+            <p>&lt;tr&gt;</p>
+            <p>&lt;td&gt;<span class="labeloutput"></span>&lt;/td&gt;</p>
+            <p>&lt;td&gt;&lt;input type="<span class="fieldoutput"></span>"&gt;</span>&lt;/td&gt;</p>
+            <p>&lt;/tr&gt;</p>
+
+            <p>&lt;tr&gt;</p>
+            <p>&lt;td&gt;<span class="labeloutput"></span>&lt;/td&gt;</p>
+            <p>&lt;td&gt;&lt;input type="<span class="fieldoutput"></span>"&gt;</span>&lt;/td&gt;</p>
+            <p>&lt;/tr&gt;</p>
+
+            <p>&lt;tr&gt;</p>
+            <p>&lt;td&gt;<span class="labeloutput"></span>&lt;/td&gt;</p>
+            <p>&lt;td&gt;&lt;input type="<span class="fieldoutput"></span>"&gt;</span>&lt;/td&gt;</p>
+            <p>&lt;/tr&gt;</p>
+
+            <p>&lt;/table&gt;</p>
+
+            <!--<p>&lt;td&gt;&lt;input type="<span class="fieldoutput"></span>" placeholder="<span class="fieldoutput"></span>"&gt;</span>&lt;/td&gt;</p>-->
+        </div>
+    </div>
+
+    <script defer src="dashboard.js"></script>
+</body>
+</html>

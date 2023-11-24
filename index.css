@@ -1,0 +1,192 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    margin: 0;
+    margin-top: 5rem;
+}
+
+
+header{
+    display: flex;
+    background-color: hsla(0, 0%, 100%, 0.98);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+    height: 5rem;
+    border: 0px solid green;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    gap: 4rem;
+}
+
+header h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #10b86f;
+    min-width: 105px;
+}
+
+header ul{
+    padding: 0%;
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block; 
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 6rem;
+    padding: 0%;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+header ul li a:hover{
+    color: #1ED384;
+    transition: color 0.1s;
+}
+
+header h2{
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    min-width: 105px;
+    padding: 10px 5px 10px 5px;
+    color: black;
+    background-color: #D6F7E7;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+header h2:hover{
+    background-color: #bfecd7;
+    transition: background-color 0.1s;
+}
+
+
+
+
+/*Hero section*/
+.heroflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;    
+}
+
+.heroleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 800px;
+    width: 500px;
+}
+
+.heroright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    width: 500px;
+}
+
+.herocta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    padding: 0px 5px 0px 5px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.heroleft h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+#herohighlight{
+    color: #10b86f;
+}
+
+.heroleft h2{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #2a2a2a;
+    margin: 0.5rem 0rem 2rem 0rem;
+}
+
+.heroleft p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+/*Hero section*/
+
+
+
+
+/*Features section*/
+.featuressection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;   
+    gap: 2rem; 
+}
+
+.featurestopleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 600px;
+    width: 500px;
+}
+
+.featurestopright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 500px;
+    width: 500px;
+}
+
+.featurestopright h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.featurestopright h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2a2a2a;
+    margin: 1rem 0rem 0.5rem 0rem;
+}
+
+.featurestopright p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #4169E1;
+    margin: 0;
+    cursor: pointer;
+}
+/*Features section*/
